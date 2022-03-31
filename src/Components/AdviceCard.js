@@ -30,7 +30,7 @@ function AdviceCard(){
                 <header className="card-wrapper">
                 <div className="text-wrapper">
                     <div className="advice-number">
-                    <h3>ADVICE  {loadedAdvice.id}</h3>
+                    <h3>ADVICE  #{loadedAdvice.id}</h3>
                     </div>
                     <h2 className="advice-content">
                     {loadedAdvice.advice}
