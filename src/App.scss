@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+$light-cyan: hsl(193,
+38%,
+86%);
+$neon-green: hsl(150,
+100%,
+66%);
+$grayish-blue: hsl(217,
+19%,
+38%);
+$dark-grayish-blue: hsl(217,
+19%,
+24%);
+$dark-blue: hsl(218,
+23%,
+16%);
+.App {
+    width: 100vw;
+    height: 100vh;
+    background-color: $dark-blue;
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
